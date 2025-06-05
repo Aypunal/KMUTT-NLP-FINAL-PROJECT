@@ -1,16 +1,22 @@
 name: ai-mail-assistant
 channels:
-  - conda-forge      
+  - pytorch         
+  - conda-forge
   - defaults
+
 dependencies:
-  - python=3.12      
+  - python=3.12
   - scikit-learn
   - pandas
   - numpy
   - matplotlib
-  - pip          
+  - flask
   - joblib
   - transformers
-  - flask
+  - pip
+
+  - pytorch
+  - cpuonly
+
   - pip:
       - kagglehub
